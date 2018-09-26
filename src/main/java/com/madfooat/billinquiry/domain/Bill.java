@@ -9,6 +9,11 @@ public class Bill {
     private BigDecimal dueAmount;
     private BigDecimal fees;
 
+    public Bill(Date dueDate, BigDecimal dueAmount){
+        this.dueDate = dueDate;
+        this.dueAmount = dueAmount;
+    }
+
 
     public Date getDueDate() {
         return dueDate;
